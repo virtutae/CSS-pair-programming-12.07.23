@@ -1,0 +1,26 @@
+.mainGrid {
+    display: grid;
+    grid-template-areas: 
+    "v . . ."
+    "v . . ."
+    ". . f f"
+
+}
+
+.featureBlock {
+    grid-area:f;
+    background-color: skyblue;
+
+}
+
+.verticalBlock {
+    grid-area:v;
+    background-color: orange;
+
+
+}
+
+.cell {
+
+
+}
